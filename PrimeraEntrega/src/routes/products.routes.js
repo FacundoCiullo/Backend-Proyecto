@@ -49,7 +49,7 @@ router.post("/", async (req, res) => {
   res.status(400).send({
     status: "Validation failed",
   });
-});
+})
 
 /*Debería cambiarlo si tengo tiempo dentro de ProductManager por un método con Object.values y Object.keys*/
 
